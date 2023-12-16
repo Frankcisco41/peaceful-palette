@@ -146,3 +146,80 @@ body{
 .sub-art{
     font-weight: bold;
 }
+
+.art-zen-2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.art-zen-2 h1{
+    font-size: 50px;
+}
+
+.art-zen-2-cont{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.art-zen-2-cont img{
+    width: 200px;
+    height: 200px;
+}
+
+.frase{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#video-carousel {
+    width: 560px; /* Ancho de un video */
+    margin: 0 auto; /* Centrar el video */
+    overflow: hidden;
+    position: relative;
+}
+
+.video-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.video {
+    width: 560px;
+    display: none;
+}
+
+.video.active {
+    display: block;
+}
+
+#prev-btn,
+#next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 10px;
+}
+
+#next-btn {
+    right: 10px;
+}
+
+.hidden {
+    visibility: hidden;
+}
