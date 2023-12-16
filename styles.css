@@ -223,3 +223,49 @@ body{
 .hidden {
     visibility: hidden;
 }
+
+.musiterapia{
+    text-align: center;
+}
+
+.musiterapia h1{
+    font-size: 50px;
+    margin-top: 100px;
+    font-style: italic;
+    color: #918658;
+}
+
+.musiterapia-cont{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.musiterapia-cont div{
+    width: 70%;
+}
+
+.info-nosotros{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info-nosotros p{
+    width: 50%;
+}
+.info-nosotros img{
+    height: 200px;
+    width: 200px;
+}
