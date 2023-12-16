@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CAF4F6;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar img{
+    height: 150px;
+    width: 150px;
+}
+
+.logo{
+    font-size: 25px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.encabezado{
+    display: flex;
+    height: 500px;
+    align-items: center;
+
+}
+
+.encabezado h1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.estres{
+    height: 500px;
+    width: 100%;
+    background-image: url("./img/wave\ \(1\).svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenido-estres{
+    padding-top: 350px;
+    text-align: center;
+}
+
+.contenido-estres h1{
+    font-size: 50px;
+}
+
+.text-estres{
+    margin-top: 50px;
+    background: white;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-estres div{
+    width: 50%;
+    text-align: left;
+}
+
+.acordeon{
+    margin-top: 10px;
+    border: 2px solid #CAF4F6;
+    padding: 5px;
+}
+
+.estres-2{
+    background-color: white;
+    padding-top: 50px;
+}
+.estres-2 h1{
+    text-align: center;
+    font-size: 50px;
+}
+.estres-2-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estres-2-content div{
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.art-zen{
+    margin-top: 50px;
+}
+
+.titulo-art{
+    text-align: center;
+}
+
+.titulo-art h1{
+    font-size: 50px;
+}
+
+.contenido-art-zen{
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenido-art-zen img{
+    height: 100px;
+    width: 100px;
+}
+
+.contenido-art-zen div:first-child{
+    width: 50%;
+}
+
+.carousel-art-zen{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+
+.sub-art{
+    font-weight: bold;
+}
