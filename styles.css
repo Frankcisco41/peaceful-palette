@@ -295,7 +295,7 @@ body{
         cursor: pointer;
     }
     .encabezado h1{
-        font-size: 30px;
+        font-size: 26px;
     }
     .contenido-estres h1{
         font-size: 30px;
@@ -382,5 +382,9 @@ body{
     .info-nosotros p{
         width: 90%;
         margin-bottom: 50px;
+    }
+
+    .musiterapia h1{
+        font-size: 30px;
     }
 }
