@@ -275,6 +275,102 @@ body{
     height: 20px;
     display: none;
 }
+
+#asistente-virtual {
+    position: fixed;
+    bottom: 20px; /* Puedes ajustar la distancia desde la parte inferior según tus preferencias */
+    right: 20px; /* Puedes ajustar la distancia desde la derecha según tus preferencias */
+    z-index: 999; /* Asegura que esté encima de otros elementos */
+}
+
+#asistente-virtual img {
+    width: 50px; /* Puedes ajustar el tamaño de la imagen según tus preferencias */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    right: 50px;
+    bottom: 25px;
+    width: 400px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chat-header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.chat-body {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.chat-input button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/* Estilos adicionales para el botón cerrar */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.modal {
+    display: none;
+}
+
+.modal.visible {
+    display: block;
+}
+
 @media (max-width: 768px) {
     .navbar img{
         height: 80px;
@@ -386,5 +482,8 @@ body{
 
     .musiterapia h1{
         font-size: 30px;
+    }
+    .modal{
+        max-width: 70%;
     }
 }

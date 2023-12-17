@@ -26,6 +26,28 @@
     <header class="encabezado">
         <h1>DESCUBRE LA TRANQUILIDAD A TRAVÉS DEL ARTE Y LA RELAJACIÓN</h1>
     </header>
+    <div id="chat-container">
+        <div id="chatModal" class="modal">
+            <div class="modal-content">
+                <div class="chat-header">
+                    <span class="close" onclick="cerrarChat()">&times;</span>
+                    Asistente Virtual
+                </div>
+                <div class="chat-body" id="chat-body">
+                    <!-- Área de mensajes -->
+                    <p class="received">¡Hola! Soy tu asistente virtual.</p>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="message-input" placeholder="Escribe aquí...">
+                    <button onclick="enviarMensaje()">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="asistente-virtual">
+        <img src="./img/bot.png" alt="bot-png">
+    </div>
     <div class="estres">
         <div class="contenido-estres">
             <h1>Hablemos de estrés</h1>
