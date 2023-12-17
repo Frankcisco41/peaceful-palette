@@ -269,3 +269,118 @@ body{
     height: 200px;
     width: 200px;
 }
+
+.nav-links img{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+@media (max-width: 768px) {
+    .navbar img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+    .nav-links a{
+        display: none;
+    }
+
+    .nav-links .menu{
+        display: block;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+    }
+    .encabezado h1{
+        font-size: 30px;
+    }
+    .contenido-estres h1{
+        font-size: 30px;
+    }
+    .contenido-estres{
+        padding-top: 200px;
+    }
+    .estres{
+        height: 250px;
+    }
+
+    .text-estres{
+        margin-top: 0;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+
+    .text-estres div{
+        width: 90%;
+    }
+
+    .estres-2 h1{
+        font-size: 30px;
+    }
+
+    .estres-2-content{
+        flex-direction: column;
+    }
+
+    .estres-2-content div{
+        width: 80%;
+    }
+
+    .contenido-art-zen{
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .contenido-art-zen div:first-child{
+        width: 90%;
+        margin: auto;
+    }
+    .art-zen-2 h1{
+        font-size: 30px;
+    }
+
+    .art-zen-2-cont{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .art-zen-2-cont img{
+        display: none;
+    }
+
+    #video-carousel{
+        width: 90%;
+    }
+
+    .musiterapia-cont{
+        flex-direction: column;
+        flex-flow: column-reverse;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .musiterapia-cont div{
+        width: 90%;
+    }
+
+    .musiterapia-cont iframe{
+        width: 90%;
+    }
+
+    .info-nosotros{
+        flex-direction: column;
+    }
+
+    .info-nosotros img{
+        display: none;
+    }
+
+    .info-nosotros p{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}
