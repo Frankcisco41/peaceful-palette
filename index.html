@@ -13,16 +13,24 @@
             <p class="logo">Peaceful<br>Palette</p> 
         </div>
         <div class="nav-links">
-            <a href="">Hablemos de estrés</a>
-            <a href="">Estrés Académico</a>
-            <a href="">Mandalas</a>
-            <a href="">Manualidades</a>
-            <a href="">Serenity Music</a>
-            <a href="">Acerca de nosotros</a>
+            <a href="#estres-dir">Hablemos de estrés</a>
+            <a href="#estres-dir-2">Estrés Académico</a>
+            <a href="#mandala-dir">Mandalas</a>
+            <a href="#man-dir">Manualidades</a>
+            <a href="#music">Serenity Music</a>
+            <a href="#about">Acerca de nosotros</a>
             <img class="menu" src="./img/bars.png" alt="">
-            <img class="close" src="./img/close.png" alt="">
         </div>
     </nav>
+    <div class="second-menu hid">
+        <p>Peaceful Palette</p>
+        <a class="nav-element" href="#estres-dir">Hablemos de estrés</a>
+        <a class="nav-element" href="#estres-dir-2">Estrés Académico</a>
+        <a class="nav-element" href="#mandala-dir">Mandalas</a>
+        <a class="nav-element" href="#man-dir">Manualidades</a>
+        <a class="nav-element" href="#music">Serenity Music</a>
+        <a class="nav-element" href="#about">Acerca de nosotros</a>
+    </div>
     <header class="encabezado">
         <h1>DESCUBRE LA TRANQUILIDAD A TRAVÉS DEL ARTE Y LA RELAJACIÓN</h1>
     </header>
@@ -35,11 +43,17 @@
                 </div>
                 <div class="chat-body" id="chat-body">
                     <!-- Área de mensajes -->
-                    <p class="received">¡Hola! Soy tu asistente virtual.</p>
+                    <p class="received">¡Hola! Soy tu asistente virtual. <br>
+                        ¿Qué te gustaria hacer hoy?<br>
+                        1.-Pintar<br>
+                        2.-Manualidades<br>
+                        3.-Escuchar Musica<br>
+                        4.-Hablar con un profesional <br>
+                    </p>
                 </div>
                 <div class="chat-input">
                     <input type="text" id="message-input" placeholder="Escribe aquí...">
-                    <button onclick="enviarMensaje()">Enviar</button>
+                    <button onclick="agregarMensaje()">Enviar</button>
                 </div>
             </div>
         </div>
@@ -48,7 +62,7 @@
     <div id="asistente-virtual">
         <img src="./img/bot.png" alt="bot-png">
     </div>
-    <div class="estres">
+    <div class="estres" id="estres-dir">
         <div class="contenido-estres">
             <h1>Hablemos de estrés</h1>
             <div class="text-estres">
@@ -70,7 +84,7 @@
             </div>
         </div>
 
-        <div class="estres-2">
+        <div class="estres-2" id="estres-dir-2">
             <h1>¿Cómo nos afecta?</h1>
             <div class="estres-2-content">
             <div>
@@ -106,7 +120,7 @@
         </div>
         </div>
         <div class="art-zen">
-            <div class="titulo-art">
+            <div class="titulo-art" id="mandala-dir">
                 <h1>ArtZen</h1>
                 <p>EXPLORANDO LA SERENIDAD A TRAVÉS DEL ARTE</p>
             </div>
@@ -120,21 +134,21 @@
                 <div class="carousel-art-zen">
                     <div>
                         <img src="./img/pdf.png" alt="pdf-png">
-                        <p>Diseño 1</p>
+                        <a href="https://drive.google.com/file/d/1CdMVcvZODyPUt7dNrc-Ej5fi-2GbL9xe/view" target="_blank">Diseño 1</a>
                     </div>
                     <div>
                         <img src="./img/pdf.png" alt="pdf-png">
-                        <p>Diseño 2</p>
+                        <a href="https://drive.google.com/file/d/1oVaK3hx_HBr0xHkt4lWpDflL8VVkWhMI/view" target="_blank">Diseño 2</a>
                     </div>
                     <div>
                         <img src="./img/pdf.png" alt="pdf-png">
-                        <p>Diseño 3</p>
+                        <a href="https://drive.google.com/file/d/1oVaK3hx_HBr0xHkt4lWpDflL8VVkWhMI/view" target="_blank">Diseño 3</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="art-zen-2">
+        <div class="art-zen-2" id="man-dir">
             <h1>¿Qué es la "Arteterapia"?</h1>
             <div class="art-zen-2-cont">
                 <div>
@@ -156,7 +170,7 @@
             <button id="next-btn">&gt;</button>
         </div>
 
-        <div class="musiterapia">
+        <div class="musiterapia" id="music">
             <h1>SerenityStudio</h1>
             <div class="musiterapia-cont">
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7AZuDiVAVNfBQCI1cnUfMX?utm_source=generator" width="30%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    
@@ -167,7 +181,7 @@
                 
             </div>
         </div>
-        <div class="estres">
+        <div class="estres" id="about">
             <div class="contenido-estres">
                 <h1>Acerca de Nosotros</h1>
                 <div class="info-nosotros">
